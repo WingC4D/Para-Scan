@@ -98,3 +98,4 @@ This tool is designed to:
 This project is for ethical red team simulation, network defense training, and protocol behavior study.  
 Do not use on networks you are not authorized to test.
 # WingC4D
+# ParaScan
