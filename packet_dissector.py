@@ -1,3 +1,13 @@
+"""
+Dissector module for extracting IP and TCP metadata from raw packets.
+
+- Dynamically handles Ethernet, IP, and TCP header sizes
+- Returns structured metadata including offsets and sizes
+- Designed for integration with Legit Host DB and entropy engine
+
+Status: MVP version, structure subject to change
+"""
+
 import socket
 import struct
 class PacketDissector():
